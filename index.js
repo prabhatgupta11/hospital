@@ -18,7 +18,7 @@ app.get("/", (req,res) =>{
 app.use("/api", userRouter)
 app.use("/api",employeeRouter)
 
-app.listen(8080, async ()=>{
+app.listen(4400, async ()=>{
     try{
         await connection
         console.log("Connected to database")
